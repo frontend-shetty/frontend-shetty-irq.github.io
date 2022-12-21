@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>irqform</title>
+  <meta charset="utf-8">
+  <link href="irqform.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>IRQ FORM</h2>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Form</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">GSP SPORT Internal Quality Review</h4>
+            <h5>Project: Final Analysis </h5>
+          </div>
+          <div class="background-all">
+            <div class="mar_auto">
+              <div class="modal-body mar_t30px row">
+                <div class="col-md-6 modal-body-left">
+                  <h5>1. ACRF-SDTM Mapping error Rate</h5>
+                  <h6>Number of SDTM Domains with Major Mapping Errors</h6>
+
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6 modal-body-right">
+                  <h6>Number of SDTM Domains with Minor Mapping Errors</h6>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              <div class="modal-body2 row mar_t30px">
+                <div class="col-md-6 modal-body2-left">
+                  <h6>2. Outputs (SDTM, ADaM,TFL) With Defects</h6>
+                  <h5>Number of SDTMs with Major Defects</h5>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                  <h5>Number of ADaMs with Major Defects</h5>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                  <H5>Number of TFLs with Major Defects</H5>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6 modal-body2-right">
+                  <h6>Number Of SDTMs with Minor defects </h6>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                  <H5>Number of ADaMs With Minor Defects </H5>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                  <H5>Number of SDTM Domains With Minor Mapping Errors </H5>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+              <!--              body 4                   -->
+
+              <div class="modal-body mar_t30px row">
+               <div class="col-md-12">
+                <h7>3. Number of analyses with correct SDTM/ADaM datasets but incorrect Specifications in MDDTs
+                </h7>
+
+               </div> 
+                <div class="col-md-6 model-body3-left">
+                  <h6>Number of correct SDTM datasets with incorrect MDDT</h6>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-6 model-body3-right">
+                  <h6>Number of correct ADaM datasets with incorrect MDDT</h6>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="formGroupExampleInput"
+                        placeholder="Please Enter Here">
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!--              body 5                  -->
+              <div class="modal-body mar_t30px row">
+                <h7>4. CompositeScore of SDTM and ADaM Reviewer's Guide</h7>
+                <div>
+                  <div class="col-md-6 modal-body4-left">
+                    <h6>Correct Template usage (DGE-407062) with nedded sections <br> presented, all instructions followed,
+                      hyperlinks correct, etc.</h6>
+                      <div class="slidecontainer">
+                        <input type="range" min="1" max="20" value="50">
+                        <form>
+                          <div class="form-group-2">
+                            <input type="number" class="form-control" id="formGroupExampleInput"
+                            <input type="range" min="1" max="20" value="20">
+                          </div>
+                        </form>
+                      </div>  
+                      <div class="range-number">
+                        <SPAN>0</SPAN>
+                        <SPAN>20</SPAN>
+                      </div>
+                    <h6>Presentation (clear and easy to understand)</h6>
+                      <div class="slidecontainer">
+                        <input type="range" min="1" max="20" value="50">
+                        <form>
+                          <div class="form-group-2">
+                            <input type="number" class="form-control" id="formGroupExampleInput"
+                            <input type="range" min="1" max="20" value="20">
+                          </div>
+                        </form>
+                      </div>  
+                      <div class="range-number">
+                        <SPAN>0</SPAN>
+                        <SPAN>20</SPAN>
+                      </div>
+                    <h6>Data conformance (Accurate , consistgent, brief, and non technical<br> explanation of the P21e findings)</h6>
+                      <div class="slidecontainer">
+                        <input type="range" min="1" max="20" value="50">
+                        <form>
+                          <div class="form-group-2">
+                            <input type="number" class="form-control" id="formGroupExampleInput"
+                            <input type="range" min="1" max="20" value="20">
+                          </div>
+                        </form>
+                      </div>  
+                      <div class="range-number">
+                        <SPAN>0</SPAN>
+                        <SPAN>20</SPAN>
+                      </div>
+
+
+                  </div>
+                  <div class="col-md-6 modal-body4-right">
+                    <h6>Fit for purposes (content appropriate for an analysis)</h6>
+                    <div class="slidecontainer">
+                      <input type="range" min="1" max="20" value="50">
+                      <form>
+                        <div class="form-group-2">
+                          <input type="number" class="form-control" id="formGroupExampleInput"
+                          <input type="range" min="1" max="20" value="20">
+                        </div>
+                      </form>
+                    </div>  
+                    <div class="range-number">
+                      <SPAN>0</SPAN>
+                      <SPAN>20</SPAN>
+                    </div>
+                    <h6>Language(wordings and sentences formation, grammer, etc)</h6>
+                    <div class="slidecontainer">
+                      <input type="range" min="1" max="20" value="50">
+                      <form>
+                        <div class="form-group-2">
+                          <input type="number" class="form-control" id="formGroupExampleInput"
+                          <input type="range" min="1" max="20" value="20">
+                        </div>
+                      </form>
+                    </div>  
+                    <div class="range-number">
+                      <SPAN>0</SPAN>
+                      <SPAN>20</SPAN>
+                    </div>
+                                          
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body mar_t30px row">
+                <h7>5. Average Programming time for STDM, ADaM, and TFLs </h7>
+                <div>
+                <div class="col-md-6 modal-body5-left">
+                  <div class="text-content">
+                    STDM (Per Domain)
+                  </div>
+                  <div class="col-md-6 modal_body5-leftone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for Source HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-6 modal_body5-leftone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for QC HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6 modal-body5-right">
+                  <div class="text-content">
+                    ADaM (Per Dataset)
+                  </div>
+                  <div class="col-md-6 modal_body5-rightone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for Source HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-6 modal_body5-rightone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for QC HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <!-- line 2 4 strips -->
+
+                <div class="col-md-6 modal-body5-left">
+                  <div class="text-content">
+                    TFLs (Per Unique TFL)
+                  </div>
+                  <div class="col-md-6 modal_body5-leftone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for Source HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-6 modal_body5-leftone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for QC HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6 modal-body5-right">
+                  <div class="text-content">
+                    TFLs (Per Repeat TFL)
+                  </div>
+                  <div class="col-md-6 modal_body5-rightone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for Source HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-md-6 modal_body5-rightone">
+                    <form>
+                      <div class="row">
+                        <div class="colnumber">
+                          <input type="24hours" class="form-control" placeholder="Please Enter Hours for QC HH:MM">
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="modal-body-new mar_t30px row">
+                <div>
+                  <div class="col-md-6 button-one">
+              <div class="cancel-btn">
+                <h4>Cancel</h4>
+              </div>
+            </div>
+            <div class="col-md-6 button-two">
+              <div class="submit-btn">
+                <h4>Submit</h4>
+              </div>
+            </div>
+            </div>
+              </div>
+                </div>
+                
+              </div>
+              </div>
+
+                <Div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
